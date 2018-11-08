@@ -1,0 +1,20 @@
+body {
+    text-align: center;
+    background: url(https://msutoday.msu.edu/_/img/assets/2016/detroit-skyline-2.jpg);
+    background-size: cover;
+    color: white;
+    font-family: helvetica;
+}
+p {
+    font-size: 22px;
+}
+input {
+    boder: 0px;
+    padding: 10px;
+    font-size: 18px;
+}
+
+input[type="submit"] {
+    background: red;
+    color: white;
+}
