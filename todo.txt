@@ -4,9 +4,16 @@ User Stories:
     - 2 hackathons wins
 - user can see my course projects
 
+Sprint D1:
+- We need a Navigation bar
+- We need a Hero image section along with a heading name
+- We need a footer
+
 Other ideas:
 - make my image a link to my github account
-- in your personal homepage write about functions you learned in Javascript and what you like about it
+- in your personal homepage write about functions you learned in Javascript and
+what you like about it
+-use particle too
 
 Requirements:
 - Style your work
@@ -43,6 +50,7 @@ Requirements:
 
 Inspiration:
 - https://sidebar.io
+- https://www.adobe.com
 
 Other website ideas
     - Scrap the web for five articles on Natural Hair and Skin Everyday
