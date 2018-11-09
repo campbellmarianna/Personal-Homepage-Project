@@ -14,6 +14,7 @@ Other ideas:
 - in your personal homepage write about functions you learned in Javascript and
 what you like about it
 -use particle too
+- Potential Icon Image: https://stock.adobe.com/search?filters%5Bcontent_type%3Aphoto%5D=1&filters%5Bcontent_type%3Avideo%5D=1&filters%5Bcontent_type%3Atemplate%5D=1&filters%5Bcontent_type%3A3d%5D=1&filters%5Bcontent_type%3Aimage%5D=1&k=motherboard+computer+chip&order=relevance&safe_search=1&search_page=1&acp=&aco=motherboard+computer+chip&limit=100&get_facets=0&asset_id=158331931
 
 Requirements:
 - Style your work
@@ -54,3 +55,6 @@ Inspiration:
 
 Other website ideas
     - Scrap the web for five articles on Natural Hair and Skin Everyday
+
+Symbol Sources:
+- Computer Chip: https://www.google.com/search?q=computer+chip+vector&source=lnms&tbm=isch&sa=X&ved=0ahUKEwiH09foosbeAhVlzVQKHbCOAv4Q_AUIEygB&biw=1440&bih=734#imgrc=8viNCvrx5LRgtM
