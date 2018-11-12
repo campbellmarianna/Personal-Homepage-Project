@@ -85,7 +85,7 @@ HERO GRID
     width: 100%;
     display: grid;
     grid-template-columns: 1fr 1fr 1fr 1fr;
-    grid-template-rows: 600px 1fr;
+    grid-template-rows: 656px 1fr;
     background: linear-gradient(rgba(44, 62, 80,.6), rgba(44, 62, 80,.6)),url('https://i.imgur.com/QwSGSG5.jpg');
     background-size: cover;
     background-position: center;
@@ -134,6 +134,39 @@ HERO GRID
     background-color: cyan;
 }
 */
+
+/**********************
+PROJECT
+**********************/
+.projects-container {
+    width: 100%;
+    height: 1200px;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows:  1fr 1fr;
+}
+
+.projects-intro {
+    background-color: cadetblue;
+    height: 200px;
+}
+
+.projectOne-left {
+    background-color: aquamarine;
+}
+
+.projectOne-right {
+    background-color: bisque;
+}
+
+.projectTwo-left {
+    background-color: cadetblue;
+}
+
+.projectTwo-right {
+    background-color: cyan;
+}
+
 /**********************
 FOOTER GRID
 **********************/

@@ -15,23 +15,24 @@ Other ideas:
 what you like about it
 -use particle too
 - Potential Icon Image: https://stock.adobe.com/search?filters%5Bcontent_type%3Aphoto%5D=1&filters%5Bcontent_type%3Avideo%5D=1&filters%5Bcontent_type%3Atemplate%5D=1&filters%5Bcontent_type%3A3d%5D=1&filters%5Bcontent_type%3Aimage%5D=1&k=motherboard+computer+chip&order=relevance&safe_search=1&search_page=1&acp=&aco=motherboard+computer+chip&limit=100&get_facets=0&asset_id=158331931
+- Add icons for Github, LinkedIn and Make School Accounts
 
 Requirements:
 - Style your work
     - Use three levels of hierarchy
         TODO: h1->Marianna Campbell, h3->Software Engineer h4Portfolio Button
-    - Font styles, strive for legibility
+    - *Font styles, strive for legibility
         - Font: <link href="https://fonts.googleapis.com/css?family=Poppins" rel="stylesheet">
     - Set the font-size on the body element in px
     - Set the font size of other elements in em
-    - Set the color.
+    - *Set the color.
         - Palette: https://flatuicolors.com/palette/us
-    - You can use a different font-family for headings.
+    - *You can use a different font-family for headings.
         - <link href="https://fonts.googleapis.com/css?family=Headland+One" rel="stylesheet">
     - Use line-height to set the line spacing (this helps legibility)
     - Text should not touch an edge (You probably need padding on the parent)
     - Try to get three levels of hierarchy.
-    - Use flex box to arrange things in vertical or horizontal groups
+    - *Use flex box to arrange things in vertical or horizontal groups
 - Code review with another student
     - HTML: Check semantics and usage
     - Check the comments and formatting
