@@ -1,3 +1,7 @@
+/*
+Around:
+width by height 640 x 480
+*/
 body, html {
     margin: 0;
 }
@@ -139,32 +143,63 @@ HERO GRID
 PROJECT
 **********************/
 .projects-container {
-    width: 100%;
-    height: 1200px;
-    display: grid;
-    grid-template-columns: 1fr 1fr;
-    grid-template-rows:  1fr 1fr;
+    /*width: 100%;
+    height: 1200px;*/
+    display: flex;
+    flex-direction: column;
 }
 
-.projects-intro {
+.projects-header {
     background-color: cadetblue;
     height: 200px;
 }
 
-.projectOne-left {
+.project-div {
     background-color: aquamarine;
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    /* height: 1000px; */
+    width: auto;
+    /*width: 100%;
+    height: 100%;*/
+    /*background: url('https://i.imgur.com/vnMhRK0.jpg');
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;*/
+    margin-top: 25px;
+    margin-bottom: 25px;
 }
 
-.projectOne-right {
-    background-color: bisque;
+.project1-img-container {
+    background: url('https://i.imgur.com/vnMhRK0.jpg');
+    width: 1000px;
+    height: 600px;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-size: contain;
 }
 
-.projectTwo-left {
+.project-div-reverse {
     background-color: cadetblue;
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    width: auto;
+}
+
+.project2-img-container {
+    background: url('https://i.imgur.com/95gD2Tf.jpg');
+    width: 1000px;
+    height: 600px;
+    background-position: right;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-size: contain;
 }
 
 .projectTwo-right {
+    /*width: 480px;*/
     background-color: cyan;
+    /*background: url('https://i.imgur.com/95gD2Tf.jpg');*/
 }
 
 /**********************
