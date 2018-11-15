@@ -2,25 +2,25 @@
 Around:
 width by height 640 x 480
 */
-body, html {
-    margin: 0;
+html {
+  margin: 0;
+  padding: 0;
+  width: 100%;
+  height: 100%;
+}
+body {
+  margin: 0;
+  padding: 0;
+  width: 100%;
+  height: 100%;
+  font-size: 18px;
 }
 /*************************
 NAVBAR
 *************************/
 .nav-bar {
-    /* z-index property specifies the stack order of an element.
-    An element with greater stack order is always infront of an element with a
-    lower stack order.*/
     z-index: 10;
     width: 100%;
-    /* Box-shadow property  adds shadow effect around an elemnet's frame
-    offset-x | offset-y | blur-radius | color: rgba(red, green, blue, alpha)
-    rgba() specifies  the intensity of the color between 0 and 255 or a
-    percentage value (from 0% to 100%)
-    alpha parameter is a number between 0.0(fully transparent) and 1.0 (fully opaque)*/
-    /*box-shadow: 0px 0px 1px rgba(0,0,0,.3);*/
-
 }
 
 .nav-links {
@@ -125,13 +125,22 @@ PROJECT
     flex-direction: column;
     line-height: 1.6;
     padding: 5px;
+    /* background: #00cec9; */
+    font-family: 'Roboto', sans-serif;
 }
 
 .projects-header {
     height: 200px;
     text-align: center;
     padding-top: 20px;
-    background: #0984e3;
+    background: #00cec9;
+    /* color: #636e72; */
+    color: #636e72;
+    font-family: 'Poppins', sans-serif;
+}
+
+.header-content {
+    font-size: 1.5rem;
 }
 
 .project-div {
@@ -139,9 +148,13 @@ PROJECT
     display: grid;
     grid-template-columns: repeat(2, 1fr);
     width: auto;
-    margin-top: 25px;
-    margin-bottom: 25px;
-    font-family-reboto
+    /* margin-top: 25px; */
+    margin-bottom: 20px;
+    padding-right: 25px;
+}
+
+.project-div p {
+    padding-right: 10px;
 }
 
 .project1-img-container {
@@ -171,10 +184,13 @@ PROJECT
     background-size: contain;
 }
 
-div.project-content-container {
-    padding: 10;
-}
+/* p.project-content-container {
+    padding-right: 10px;
+} */
 
+div.project1-content-container p {
+    padding-right: 15px;
+}
 
 /**********************
 FOOTER GRID
